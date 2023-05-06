@@ -1,0 +1,335 @@
+/* TABLE OF CONTENT*/
+/*----
+1.GENERAL
+2.NAVBAR
+3.BANNER
+4.FOOTER
+
+----*/
+
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /*Background Color*/
+    --primary-color: #1D3557;
+    --secondary-color: #B6CAE7;
+    --bg-white: #fff;
+    --bg-card1: #97E3E7;
+    --bg-card2: #B6CAE7;
+    --bg-card3: #F7BBC0;
+    --bg-card4: #457B9D;
+
+    /* Text Color*/
+    --primary-text: #1D3557;
+    --text-white: #fff;
+    --text-black: #000;
+
+
+
+
+}
+
+
+.nav-btn
+{
+    width: 122.71px;
+    height: 40.19px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7.61904px;
+    cursor: pointer;   
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8095px;
+    line-height: 26px;
+    margin-top: 2%;
+    
+}
+#learn-more , #apply-now{
+        width: 122.39px;
+        height: 42.01px;
+        border: 0.518611px solid #1D3557;
+        border-radius: 10.3722px;
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.5956px;
+        line-height: 20px;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #000000;
+        padding: 10px;
+
+}
+#apply-now{
+    color: #FFFFFF;
+    background: #1D3557;
+    border: 0.518611px solid #8785FD;
+  }
+.main-btn
+{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: auto;
+    background-color: #1D3557;
+    font-size: 0.875rem;
+    color: var(--text-white);
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform:capitalize;
+    border-radius: 0.7125rem;
+    box-shadow: 0 0.625rem 1.875rem rgb(118 85 225/30%);
+    border: double 0.125rem transparent;
+    padding: 0 2.625rem;
+    transition: all .3s ease-in-out;
+    --webkit-transition: all .3s ease-in-out;
+}
+/* 2 Navbar */
+.header-wrapper .navbar
+{
+    align-items: end;
+    background-color: var(--primary-color);
+
+}
+.header-wrapper .navbar-brand img{
+    max-width: 50px;
+    height: 50px;
+    margin-left: 50%;
+}
+.header-wrapper .navbar-toggler:focus
+{
+    box-shadow: none;
+}
+.header-wrapper .nav-item
+{
+    margin: 0.8rem;
+    
+}
+.header-wrapper .nav-item .nav-link{
+  font-family: 'Poppins', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text-white);
+    display: inline-block;
+}
+
+        
+/* 3 Banner*/
+.banner_wrapper{
+    padding-top: 6.875rem;
+    z-index:1;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.banner_wrapper .banner-content
+{
+    vertical-align: middle; 
+    align-self: center; 
+    
+}
+
+
+.banner_wrapper .banner-content h2::after{
+    content:'';
+    width: 60%;
+    height: 0.125rem;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color: var(--bg-black);
+    overflow-x: hidden;
+}
+.form
+{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+/*4 Cources */
+.card{
+    box-shadow: 0px 0px 21px rgba(220, 13, 13, 0.075);
+    border-radius: 0px;
+    margin-bottom: 40px;
+   
+} 
+.clean-card {
+    box-shadow: 0px 2px 10px rgba(0,0,0,.075);
+    border-radius: 3px;
+    margin-bottom: 40px;
+    border: 1px solid #eaeaea;
+  }
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+#card-1
+{
+   box-shadow:2px 2px 2px 2px #F7BBC0;  
+} 
+#card-2
+{
+    box-shadow:2px 2px 2px 2px #97E3E7;
+}
+#card-3
+{
+    box-shadow:2px 2px 2px 2px #B6CAE7;
+}
+
+.download-section{
+    /* border: 2px solid black; */
+    display: flex;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #F1F2F5;
+  }
+  .download-section #download-block{
+    width: 60%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .download-section #download-block h1{
+    width: 601.14px;
+    height: 123px;
+    /* border: 2px solid black; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47.1871px;
+    line-height: 61px;
+    /* or 121% */
+  
+    text-align: center;
+  
+    color: #000000;
+  }
+  .download-section #download-block p{
+    width: 600.47px;
+    height: 91.95px;
+  
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4872px;
+    line-height: 23px;
+    text-align: center;
+  
+    color: #787878;
+  }
+  .download-section #download-block #img-block{
+    background: #1E1E1E;
+    width: 310.01px;
+    height: 63.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 12.5098px;
+  }
+  .download-section #download-block span{
+    width: 200.56px;
+    height: 33px;
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.7578px;
+    line-height: 32px;
+    /* identical to box height, or 121% */
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+  }
+
+  #msg{
+    color: #1D3557;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    width: fit-content;
+    margin: 2px auto;
+  }
+footer
+{
+        width: 100%;
+        
+        bottom: 0.4px;
+        background: #253253;
+        display: flex;
+        flex-wrap: wrap;    
+}
+@media (max-width: 655px) {
+      .download-section{
+        height: auto;
+      }
+      .download-section #download-block{
+        width: auto;
+        height: auto;
+      }
+      .download-section #download-block h1{
+        font-size: 2rem;
+        width: auto;
+        height: auto;
+      }
+      .download-section #download-block p{
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+      }
+    }
+    @media (max-width: 1110px) {
+        .download-section{
+          height: auto;
+        }
+        .download-section #download-block{
+          width: auto;
+          height: auto;
+        }
+        .download-section #download-block h1{
+          font-size: 2rem;
+          width: auto;
+          height: auto;
+        }
+        .download-section #download-block p{
+          width: auto;
+          height: auto;
+          margin-bottom: 30px;
+        }
+      }

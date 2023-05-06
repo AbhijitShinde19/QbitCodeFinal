@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #1D3557;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header {
+    margin: 30px 0 0 25px;
+    border-radius: 971.192px;
+}
+.container-m {
+    margin-left: 190px;
+    margin-top: 50px;
+    position: relative;
+}
+#logo img {
+    clip-path: circle(50% at 50% 50%);
+  }
+.form{
+    position: absolute;
+}
+#courses{
+    width: 226px;
+    height: 18px;
+}
+#msg2 {
+    color: #1D3557;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    width: fit-content;
+    margin: 2px auto;
+}
+#name {
+    width: 105px;
+    height: 18px;
+}
+
+#gen {
+    width: 225px;
+    height: 18px;
+}
+
+#mobile {
+    width: 220px;
+    height: 18px;
+}
+
+#mail {
+    width: 220px;
+    height: 18px;
+}
+
+#dob {
+    width: 220px;
+    height: 18px;
+}
+
+#cit {
+    width: 220px;
+    height: 18px;
+}
+
+#stat {
+    width: 220px;
+    height: 18px;
+}
+
+#pin {
+    width: 220px;
+    height: 18px;
+}
+
+#nation {
+    width: 220px;
+    height: 18px;
+}
+
+#prof {
+    width: 220px;
+    height: 18px;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+#apply {
+    box-sizing: border-box;
+    width: 130px;
+
+    color: aliceblue;
+    font-weight: 600;
+    height: 40px;
+    left: 285.79px;
+    top: 1220.65px;
+    background: #1D3557;
+    border: 0.828378px solid #8785FD;
+    border-radius: 16.5676px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.id{
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid  #9FA0A7;
+    
+}
+.pass{
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid  #9FA0A7;
+}
+.log {
+    margin-top: 30px;
+    width: 250px;
+    height: 30.32px;
+    left: 227.38px;
+    top: 457.68px;
+    color: aliceblue;
+    font-weight: 400;
+    background: #1D3557;
+    border-radius: 84.5px;
+    cursor: pointer;
+}
+#signup img{
+    margin: 2px;
+    height: 15px;
+}
+#signup {
+    width: 250px;
+    height: 30.32px;
+    left: 227.38px;
+    align-items: center;
+    top: 410.68px;
+    font-size: 10px;
+    font-weight: 400;
+    background: #ffffff ;
+    border-radius: 84.5px;
+    cursor: pointer;
+}
+.image{
+    float: right;
+    margin: 90px 190px 0 0;
+}
+.imag{
+    float: right;
+    margin: -42px 19px 0 0;
+}

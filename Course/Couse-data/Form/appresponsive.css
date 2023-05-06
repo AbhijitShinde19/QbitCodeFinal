@@ -1,0 +1,170 @@
+@media screen and (max-width: 800px) {
+    #logo img {
+        width: 20%;
+    }
+
+    .container-m {
+        width: 50%;
+    }
+    
+    .image {
+        float: left;
+        margin: 102px 0 0 265px;
+    }
+
+    img {
+        width: 265px;
+    }
+    #name {
+        width: 105px;
+        height: 18px;
+    }
+    
+    #gen {
+        width: 225px;
+        height: 18px;
+    }
+    
+    #mobile {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #mail {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #dob {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #cit {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #stat {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #pin {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #nation {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #quali {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #work {
+        width: 220px;
+        height: 18px;
+    }
+    
+    #org {
+        width: 220px;
+        height: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #logo img {
+        width: 20%;
+    }
+    .form{
+        width: 115%;
+    }
+    h2{
+        font-size: larger;
+    }
+    .container-m {
+        width: 50%;
+    }
+    i{
+        font-size: 12px;
+        margin: 0 0 0 7px;
+    }
+    .image {
+        float: left ;
+        margin: 185px 0 0 -240px;
+    }
+    img {
+        width: 1000%;
+    }
+    #name {
+        width: 75px;
+        height: 12px;
+    }
+    
+    #gen {
+        width: 170px;
+        height: 18px;
+    }
+    
+    #mobile {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #mail {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #dob {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #cit {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #stat {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #pin {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #nation {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #quali {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #work {
+        width: 170px;
+        height: 12px;
+    }
+    
+    #org {
+        width: 170px;
+        height: 12px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #logo img {
+        width: 20px;
+    }
+    img {
+        width: 240px;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply form</title>
+    <link rel="stylesheet" href="styleapply.css">
+    <link rel="stylesheet" href="appresponsive.css">
+</head>
+<body>
+    <div id="logo" class="header">
+        <img src="./image/fotor_2023-2-22_9_30_421.png"  alt="">
+    </div>
+    <div class="container-m">
+        <h2>Fill your basic details</h2>
+        <div class="form">
+            <form name="submit-to-google-sheet">
+                <select name="Course" id="courses" aria-placeholder="Select Course" required>
+                    <option value="">Select Course</option>
+                    <option value="Java Development">Java Development</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Web Development">Web Development</option>
+                </select>
+                <br><br>
+                <input type="text" id="name" name="First-name" placeholder="First name" required>
+                <input type="text" id="name" name="Last-name"  placeholder="Last name" required>
+                <br><br>
+                <select id="gen" name="Gender" aria-placeholder="Gender"  required>
+                    <option value="">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                <br><br>
+                <input type="tel" name="Mobile-number" id="mobile" placeholder="Mobile number" required>
+                <br><br>
+                <input type="email" name="Email" id="mail" placeholder="Email" required>
+                <br><br>
+                <label for="dob">Date of Birth</label>
+                <br>
+                <input type="date" name="DOB" id="dob" placeholder="Date of birth" required>
+                <br><br>
+                <input type="text" name="City" id="cit" placeholder="City"  required>
+                <br><br>
+                <input type="text" name="State" id="stat" placeholder="State" required>
+                <br><br>
+                <input type="number" name="Pincode" id="pin" placeholder="Pincode" required>
+                <br><br>
+                <input type="text" name="Nationality" id="nation" placeholder="Nationality" required>
+                <br><br>
+                <select id="prof" name="Profession" aria-placeholder="Profession"  required>
+                    <option value="">Profession</option>
+                    <option value="student">Student</option>
+                    <option value="working">Working</option>
+                    <option value="looking for job">Looking for Job</option>
+                </select>
+                <br><br>
+                <input type="checkbox" name="conditions" id="" required><i>I've read and accept the term and conditions</i> 
+                <br><br>
+                <span id="msg2"></span>
+                <input type="submit" id="apply" value=" Continue" placeholder="Apply Now">
+            </form>
+        </div>
+        <div class="image">
+            <img src="./image/formimages/undraw_learning_re_32qv11.png"  alt="">
+        </div>
+    </div>
+    
+</body>
+<script src="./apply.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzxxyAew5QRRpPgEYf8O6o4s-4ph66n2ULME5z9qd5RvJQ3AnnVzLle0Sx8-YLeSl1HYw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg2 = document.getElementById("msg2");
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg2.innerHTML = "Your Application Submitted! Successfully";
+                setTimeout(() => {
+                    msg2.innerHTML = "";
+                }, 5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</html>

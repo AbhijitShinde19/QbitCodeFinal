@@ -1,0 +1,665 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title> QBit Code</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+
+<body>
+    <section class="clean-box" style="background-color: #B6CAE7; margin-top: 0%; padding-top: 5%; padding-bottom: 5%;">
+        <div class="container rounded-4"
+            style="background-color: #FFF; margin-top: 0%; margin-bottom: 5%; padding:0%; border-top-right-radius: 30%;">
+            <!-- Navbar Section-->
+            <header class="header-wrapper">
+                <nav class="navbar navbar-expand-lg rounded-top-4 ">
+                    <div class="container">
+                        <a class="navbar-brand" href="/index.html">
+                            <img src="images/logo.png" class="img-fluid rounded-circle " alt="logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav menu-navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./index.html"><span
+                                            style="text-decoration: underline; text-decoration-color: #97E3E7; text-decoration-thickness: 3px;">Hom</span>e</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/Course/course.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Courses
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="./Course/course.html">All Courses</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="./Course/Couse-data/Data Science/data-science.html">Data
+                                                Analytic</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="./Course/Couse-data/Web development/web-d.html">Web
+                                                Development</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="./Course/Couse-data/Core java/core-java.html">Java Full Stack</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Services/services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="AboutUs/about-us.html">About Us</a>
+                                </li>
+                                <!-- <button class=" nav-btn ms-1 p-2 " onclick="openSignup()" type="submit">Sign Up</button>
+
+                                <script>
+                                    function openSignup() {
+                                        window.open("./Form/signup.html");                                   
+                                    }
+                                </script> -->
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </header>
+
+            <!-- Navbar Section Exit-->
+
+            <!-- Banner Section -->
+            <section id="home" class="banner_wrapper ms-4" style="margin-top: -7%;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 order-lg-1 order-2 banner-content justify-content-center">
+
+                            <h1 class="text-uppercase fw-bold" style="font-family: 'DM Sans';"><span
+                                    style="color: #1D3557;">Best Learning</span> </h1>
+                            <h1 class="text-uppercase fw-bold" style="font-family: 'DM Sans';"><span
+                                    style="color: #457B9D;"> Education Platform</span></h1>
+                            <h1 class="text-uppercase fw-bold" style="font-family: 'DM Sans';"><span
+                                    style="color: #457B9D;"> In </span><span style="color: #1D3557;">The World</span>
+                            </h1>
+                            <h4 class="text-muted">We transform bits into technology.</h4>
+                            <form>
+                                <div class="control-group p-2">
+                                    <div class="mb-0 form-floting pb-2">
+
+
+                                        <input id="contactNo" class="form-control" type="text" required
+                                            placeholder="what do you want to search" />
+
+                                        <lable class="form-lable "></lable>
+                                        <small class="form-text text-danger help-block"></small>
+                                    </div>
+
+                                </div>
+                                <!--<input type="text" placeholder="what do you want to search"> -->
+                                <button class="main-btn mb-2 ms-1" type="submit" style="width: fit-content;">Search
+                                    Courses</button>
+                            </form>
+
+                        </div>
+
+                        <div class="col-lg-6 order-lg-2 order-1">
+                            <div class="top-right-img">
+                                <img src="images/e-learning.png" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--Banner Section Exit-->
+
+        </div>
+    </section>
+    <!-- Quiz Section-->
+
+    <section class="clean-block clean-info dark mt-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <button class="main-btn">
+                    <h1 class="mt-3" style="text-align: center ;font-weight: bold;">Take a Quiz</h1>
+                </button>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="img-thumbnail" src="images/Quizillustration.png" />
+                </div>
+                <div class="col-md-6">
+                    <div style="text-align:center;">
+                        <h3>Before you begin,<br />check your ability <br />and get started</h3>
+                        <button class="main-btn btn-lg  mt-2" type="button">Get Started</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quiz Section Exit-->
+
+    <!--populer Courses Section-->
+    <section class="clean-block Courses mt-4">
+        <div class="container">
+            <div class="block-heading" style="text-align: center;">
+                <h2 class="fw-bold" style="color: #1D3557;">Po<span
+                        style="text-decoration: underline; text-decoration-color: #97E3E7; text-decoration-thickness: 3px;">pular
+                        Courses</span></h2>
+            </div>
+            <div class="row justify-content-center mt-4 ms-3 me-3">
+                <div class="col-sm-6 col-lg m-1 card " style="width: 100%;">
+                    <div class="card text-start clean-card mt-2">
+                        <img src="images/webdev 1.png" class="card-img w-80 d-block" alt="">
+                    </div>
+                    <div class="card-body info">
+                        <ul class="list-unstyled">
+                            <li class="text-muted" style="font-family:Poppins;">Web Development :
+                                <ul>
+                                    <li style="color: #000; font-family:Poppins;">Learn About Html,Css,JS </li>
+                                    <li style="color: #000; font-family:Poppins;">Learn About Backend with JS</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-3 ">
+                        <a class="btn me-2 mt-2" id="learn-more">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg m-1 card" style="width: 100%;">
+                    <div class="card text-start clean-card mt-2">
+                        <img src="images/Data analytic.png" class="card-img w-80 d-block" alt="">
+                    </div>
+                    <div class="card-body info">
+                        <ul class="list-unstyled">
+                            <li class="text-muted" style="font-family:Poppins;">Data Analytic :
+                                <ul>
+                                    <li style="color: #000; font-family:Poppins;">Learn DA With Python</li>
+                                    <li style="color: #000; font-family:Poppins;">Explore AI and ML</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-3 ">
+                        <a class="btn me-2 mt-2" id="learn-more">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg m-1 card" style="width: 100%;">
+                    <div class="card text-start clean-card mt-2">
+                        <img src="images/javafullstack.png" class="card-img w-80 d-block" alt="">
+                    </div>
+                    <div class="card-body info">
+                        <ul class="list-unstyled">
+                            <li class="text-muted" style="font-family:Poppins;">Java Full Stack :
+                                <ul>
+                                    <li style="color: #000; font-family:Poppins;">Learn Core Java and Adavance Java</li>
+                                    <li style="color: #000; font-family:Poppins;">Get Opportunities To Work On Major
+                                        Projects</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-3 ">
+                        <a class="btn me-2 mt-2" id="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--populer  Courses Section Exit-->
+
+    <!--All Courses Section-->
+    <section class="clean-block Courses mt-4">
+        <div class="container">
+            <div class="block-heading" style="text-align: center;">
+                <h2 class="fw-bold" style="color: #1D3557;">Ex<span
+                        style="text-decoration: underline; text-decoration-color: #97E3E7; text-decoration-thickness: 3px;">plore
+                        all courses</span></h2>
+            </div>
+            <div class="row justify-content-center mt-4 ms-3 me-3">
+                <div class="col-lg-3 col-md col-sm-6 col-6 d-flex mt-3">
+                    <h4>All Categories</h4>
+                </div>
+                <div class="col-lg-3 col-md col-sm-6 col-6 d-flex mt-3">
+                    <h4 class="text-muted">Web Development</h4>
+                </div>
+                <div class="col-lg-3 col-md col-sm-6 col-6 d-flex mt-3">
+                    <h4 class="text-muted">Data Analytic</h4>
+                </div>
+                <div class="col-lg-3 col-md col-sm-6 col-6 d-flex mt-3 mb-3">
+                    <h4 class="text-muted">Java Full Stack</h4>
+                </div>
+                <div class="col-sm-6 col-lg m-1 card" style="width: 100%;">
+                    <div class="card text-start clean-card mt-2">
+                        <img src="images/webdev 1.png" class="card-img w-80 d-block" alt="">
+                    </div>
+                    <div class="card-body info">
+                        <ul class="list-unstyled">
+                            <li class="text-muted" style="font-family:Poppins;">Web Development:
+                                <ul>
+                                    <li style="color: #000; font-family:Poppins;">Learn About Html,Css,JS </li>
+                                    <li style="color: #000; font-family:Poppins;">Learn About Backend with JS</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-3 ">
+                        <a class="btn me-2 mt-2" id="learn-more">Learn More</a>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-lg m-1 card" style="width: 100%;">
+                    <div class="card text-start clean-card mt-2">
+                        <img src="images/Data analytic.png" class="card-img w-80 d-block" alt="">
+                    </div>
+                    <div class="card-body info">
+                        <ul class="list-unstyled">
+                            <li class="text-muted" style="font-family:Poppins;">Data Analytic:
+                                <ul>
+                                    <li style="color: #000; font-family:Poppins;">Learn DA With Python</li>
+                                    <li style="color: #000; font-family:Poppins;">Explore AI and ML</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-3 ">
+                        <a class="btn me-2 mt-2" id="learn-more">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg m-1 card" style="width: 100%;">
+                    <div class="card text-start clean-card mt-2">
+                        <img src="images/javafullstack.png" class="card-img w-80 d-block" alt="">
+                    </div>
+                    <div class="card-body info">
+                        <ul class="list-unstyled">
+                            <li class="text-muted" style="font-family:Poppins;">Java Full Stack:
+                                <ul>
+                                    <li style="color: #000;font-family:Poppins;">Learn Core Java and Adavance Java
+
+                                    </li>
+                                    <li style="color: #000;font-family:Poppins;">Get Opportunities To Work On Major
+                                        Projects</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-3 ">
+                        <a class="btn me-2 mt-2" id="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block-heading mt-3" style="text-align: center;">
+                <a href="#" class="nav-link " style="text-decoration: underline; color: #1D3557;">
+                    <p>View All</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="clean-block d-flex justify-content-center align-items-center ">
+        <div class="col col-sm col-xs col-md m-4 p-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-3 ms-3 me-3">
+                <div class="col">
+                    <div class="card rounded-3" style="background-color: #457B9D">
+                        <img src="images/card.jpg" class="card-img p-2  ps-4 pe-4"
+                            style="margin-top: -30px;border-radius: 15%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white" style="font-family: Cabin;">Learn From <br /> Industry
+                                Experts</h5>
+                            <p class="card-text text-white text-muted-white" style="font-family: Poppins;">Comprehensive
+                                self- paced <br />courses created with top practitioners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-3" style="background-color: #457B9D;">
+                        <img src="images/firmbee-com-jrh5lAq-mIs-unsplash.jpg" class="card-img p-2  ps-4 pe-4 "
+                            style="margin-top: -30px;border-radius: 15%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white" style="font-family: Cabin;">Free Resources</h5>
+                            <p class="card-text text-white text-muted-white" style="font-family: Poppins;"> Free guides
+                                on career <br />paths, salaries, <br> interview tips,<br />and more</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-3" style="background-color:#457B9D;">
+                        <img src="images/Rectangle 115.png" class="card-img p-2 ps-4 pe-4"
+                            style="margin-top: -30px;border-radius: 15%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white" style="font-family: Cabin;margin-top: -6px;">
+                                Skill-based Learning</h5>
+                            <p class="card-text text-white text-muted-white" style="font-family: Poppins;"> Develop the
+                                job-ready
+                                skills on offer in today’s most<br /> in-demand domains of <br> IT Industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-3 x" style="background-color:#457B9D;">
+                        <img src="images/arpit-rastogi-xv7DTjnx2YQ-unsplash.jpg" class=" img-fluid p-2 ps-4 pe-4 "
+                            style="margin-top: -30px; border-radius: 15%;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white" style="font-family: Cabin;">Learn Anytime,<br /> Anywhere
+                            </h5>
+                            <p class="card-text text-white text-muted-white" style="font-family: Poppins;">Learn while
+                                working or <br />studying from any place, across any device</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--All Courses Section Exit-->
+
+
+    <!-- Resource  Section-->
+    <section class="clean-box">
+        <div class="container d-flex md-4 ">
+            <div class="row m-2">
+                <div class="block-heading mb-4 fw-bold" style="text-align: center;">
+                    <h2 class="heading fw-bold" style="color: #1D3557;">Hear what peopl<span
+                            style="text-decoration: underline; text-decoration-color: #97E3E7; text-decoration-thickness: 3px;">e
+                            have to sa</span>y</h2>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-start" id="card-1" style="background-color: #97E3E7;border-radius: 0%;">
+                        <div class="card-body justify-content-center">
+                            <h3 class="card-title ms-4 mt-3 fw-bold">Best Platform to learn from</h5>
+                                <p class="card-text mb-3 ms-4">I recently used this education website to learn about
+                                    Java Full Stack and I must say, it was an incredible experience! The platform offers
+                                    a comprehensive and well-structured course that covers all the important concepts of
+                                    Java Full Stack development.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center mt-auto">
+                                        <div class="icon ms-4 mb-3"> <img class="img-fluid rounded-circle"
+                                                src="images/logo.png" /> </div>
+                                        <div class="ms-2 mb-3">
+                                            <h6 class="mb-0 fw-bold">Rahul Shivam</h6> <span class="text-muted">B.Tech
+                                                Student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" id="card-2" style="background-color:#B6CAE7;">
+                        <div class="card-body">
+
+                            <h3 class="card-title ms-4 mt-3 fw-bold">Highly <br />Recommended</h5>
+                                <p class="card-text mb-3 ms-4">I recently used this web development service and I have
+                                    to say, I was thoroughly impressed with the quality of work and level of
+                                    professionalism. The team was highly skilled and knowledgeable in all aspects of web
+                                    development.</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="icon ms-4 mb-3 mt-auto"> <img class="img-fluid rounded-circle"
+                                                src="images/logo.png" /> </div>
+                                        <div class="ms-2 mb-3">
+                                            <h6 class="mb-0 fw-bold">Swagatika Sahoo</h6> <span
+                                                class="text-muted">B.Tech
+                                                Student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" id="card-3" style="background-color: #F7BBC0;">
+                        <div class="card-body ">
+                            <h3 class="card-title ms-4 mt-3 fw-bold">Top Class <br /> Mentors</h5>
+                                <p class="card-text ms-4 mb-3">Exceptional mentor! Valuable insights, clear
+                                    communication, effective teaching style. You are the best lecturer I have ever come
+                                    across.
+                                    Everything is worthy and best,
+                                    Thank you for making life easy Highly recommended."</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="icon ms-4 mb-3 mt-auto"> <img class="img-fluid rounded-circle"
+                                                src="images/logo.png" /> </div>
+                                        <div class="ms-2 mb-3">
+                                            <h6 class="mb-0 fw-bold">Aman Kumar</h6> <span class="text-muted">B.Tech
+                                                Student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resource Section Exit-->
+    <!-- Query Section-->
+    <section class="clean-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold" style="font-family: Cabin; color: #1D3557;">Have any queries?</h3>
+                        <p style="font-family: Poppins;">Get a free counseling session from our experts</p>
+
+                        <div class="container mb-4 rounded-3" style="background-color: #B6CAE7
+                    ;">
+                            <div class="row row.cols-4 mx-auto p-4 rounded-3">
+                                <form id="contactForm" name="submit-to-google-sheet">
+                                    <div class="control-group p-2">
+                                        <div class="mb-0 form-floting controls pb-2">
+                                            <input id="email" class="form-control" type="text" name="Email" required
+                                                placeholder="Email" />
+                                            <lable class="form-lable"></lable>
+                                            <small class="form-text text-danger help-block"></small>
+                                        </div>
+                                    </div>
+                                    <div class="control-group p-2">
+                                        <div class="mb-0 form-floting controls pb-2">
+                                            <input id="name" class="form-control" type="text" name="Name" required
+                                                placeholder="Name" />
+                                            <lable class="form-lable"></lable>
+                                            <small class="form-text text-danger help-block"></small>
+                                        </div>
+                                    </div>
+                                    <div class="control-group p-2">
+                                        <div class="mb-0 form-floting controls pb-2">
+                                            <input id="contactNo" class="form-control" type="text" name="Contact"
+                                                required placeholder="Contact No." />
+                                            <lable class="form-lable"></lable>
+                                            <small class="form-text text-danger help-block"></small>
+                                        </div>
+
+                                    </div>
+                                    <div class="control-group p-2">
+                                        <div class="mb-0 form-floting controls pb-2">
+                                            <input id="qualification" class="form-control" type="text"
+                                                name="Qualification" required placeholder="Qualification" />
+                                            <lable class="form-lable"></lable>
+                                            <small class="form-text text-danger help-block"></small>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <button id="submitButton" class="main-btn" type="submit">Get a free
+                                            councelling</button>
+                                    </div>
+                                </form>
+                                <span id="msg"></span>
+
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-6 justify-content-center">
+                    <div class="col-md-6 text-center" style="width: fit-content;">
+                        <img class="img-fluid" src="images/Queries illustration.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Query Section Exit-->
+
+    <!-- Services Section-->
+
+    <!-- Services Section Exit-->
+    <!-- <section class="download-section justify-content-center">
+        <div id="download-block">
+            <h1>Download our app from Play store for free </h1>
+            <p>Unlock your potential in the world of technology with Qbit Code - the ultimate choice for anyone seeking
+                high-quality courses led by expert instructors.</p>
+            <div id="img-block">
+                <img src="images/Google Play.png" alt="">
+                <span>Download now</span>
+            </div>
+        </div>
+    </section> -->
+    <!--footer section -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-4 row-cols-md-4 mt-5">
+                <div class="col mb-3 text-center">
+                    <img src="images/logo.png" style="width: 10rem; " class="img-fluid rounded-circle" alt="logo">
+                    </a>
+                    <ul class="text-sm-center mt-3">
+                        <li class=" list-inline-item"><a class="link-light" href="#"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg></a></li>
+                        <li class=" list-inline-item"><a class="link-light" href="#"><svg class="bi"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg></a></li>
+                        <li class="list-inline-item"><a class="link-light" href="#"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg></a></li>
+                        <li class="list-inline-item"><a class="link-light" href="#"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="ms-2" style="-webkit-text-fill-color: #fff;">Company</h5>
+                    <ul class="nav flex-column ms-2">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">About</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Privacy Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Terms and Condition</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="ms-2" style="-webkit-text-fill-color: #fff;">Services</h5>
+                    <ul class="nav flex-column ms-2">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Courses</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Live Projects</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Online Training</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "
+                                style="-webkit-text-fill-color: #fff;">Career Counselling</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="ms-2" style="-webkit-text-fill-color: #fff;">Work With Us</h5>
+                    <ul class="nav ms-2 flex-column justify-content-lg-start">
+                        <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"
+                                style="-webkit-text-fill-color: #fff;">Careers</a></li> -->
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"
+                                style="-webkit-text-fill-color: #fff;">Become an Instructor</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"
+                                style="-webkit-text-fill-color: #fff;">Become a Partner</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mb-3" style="color: #FFF;">
+                <span>Copyright @2023 All rights reserved <br> From Priya Qubit</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section exit-->
+
+    <!--bootstarp js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+    <!--custom js-->
+    <script src="js/main.js"></script>
+</body>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyAFRHv3X77Ls7ZAWYHlAvsuAVlKVkDSGikhv6DE4Xmv-cH7O2TUG99qfB2tY1NA6pnw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => { 
+                msg.innerHTML = "Your Query Submitted! Successfully"; 
+                setTimeout(() => {
+                    msg.innerHTML="";
+                }, 5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</html>
