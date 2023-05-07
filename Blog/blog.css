@@ -245,9 +245,36 @@ nav ul {
 }
 
 /* Most Latest Blog */
+
 .latest {
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
-  border-top: 10px solid black;
-  border-spacing: 10px;
+  /* border-top: 10px solid black; */
+  /* border-spacing: 10px; */
+}
+.sec img{
+  /* float: left; */
+  /* width: 40%; */
+}
+.sec h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.sec p{
+  font-size: 14px;
+}
+.containt{
+  position: absolute;
+width: 274px;
+height: 52px;
+left: 900px;
+top: 1200.78px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 26px;
+
+color: #FFFFFF;
 }
