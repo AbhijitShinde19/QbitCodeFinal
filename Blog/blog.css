@@ -277,9 +277,40 @@ nav ul {
 }
 
 
+/* most popular blog */
+.container{
+  gap: 10px;
+}
+.card{
+  border: none;
+}
+.card-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 39px;
+color: #000000;
+}
+.card-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #3E3E3E;
+}
 
-
-
+span{
+  margin-bottom: 5px;
+  padding-top: 5px;
+  border-top: 1px solid rgba(0 , 0, 0, 0.5);
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
 
 
 /* footer */
@@ -490,6 +521,8 @@ nav #logo {
       border-bottom: 1px solid #444;
     }
 
+    /* popular blogs */
+    
   }
 
   @media screen and (max-width: 768px) {
